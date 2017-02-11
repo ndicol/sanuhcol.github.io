@@ -1,36 +1,4 @@
-<?php
-ob_start();
-?>
 
-<?php
-  if (empty($_POST) === false){
-    $errors = array();
-    
-    $name = $_POST['formName'];
-    $email = $_POST['formEmail'];
-    $message = $_POST['formMessage'];
-    
-    if (empty($name)){
-      $errors[] = 'Name';
-    }
-    if (empty($email)){
-      $errors[] = 'Email';
-    }
-    if (empty($message)){
-      $errors[] = 'Message';
-    }
-    
-    if(empty($errors)){
-      //send email
-      //redirect user to thankYou page
-      mail('info@sanuhcol.com', 'Contct form from portfolio', $message, 'from: '.$email);
-      header('location: ./index.php?sent#contacts');
-      exit();
-    }
-          
-  }k
-  
-  ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -191,31 +159,6 @@ ob_start();
 <div class="col-xs-12 text-center" id="contact">
       <h2> Get in touch</h2>
       <p>Thanks for viewing my portfolio page. Please use this form to drop a note.</p>
-  
-  <?php
-   if (isset($_GET['sent']) === true){
-     echo  '<div id="thankyou"><h3>Your message has been sent!</h3>'.'<h3>Thank you for taking your time to view my page and for your  message.</h3></div>';
-   }else {
-      if(!empty($errors)){
-        $box = count($errors)>1 ? "boxes" : "box";
-        echo  '<div id="Error"> Please the ';
-        
-        for($i=0; $i < count($errors); $i++){
-          if($i === 0){
-            echo '<strong>'.' '.$errors[$i].'</strong>';
-          }else if($i === count($errors)-1){
-            echo ' and '.'<strong>'.$errors[$i].'</strong>';
-          }else{
-            echo ', '.'<strong>'.$errors[$i].'</strong>';
-          }
-          
-        }
-        echo " {$box} can't be empty </div>";
-        
-      }
-     
-     ?>
-  
 </div>
   
   
@@ -224,21 +167,17 @@ ob_start();
   <form action="./index.php?#contacts" method="post" id="contactForm" name="contactForm">
 
           <label for="formName">Name</label>
-          <input class="textIn" type="text" id="formName" name="formName" placeholder="Enter your Name" <?php if(isset($_POST['formName'])){echo 'value="', strip_tags($_POST['formName']),'"'; } ?> required>
+          <input class="textIn" type="text" id="formName" name="formName" placeholder="Enter your Name" required>
 
           <label for="formEmail">Email</label>
-          <input class="textIn" type="email" id="formEmail" name="formEmail" placeholder="Enter your email address" <?php if(isset($_POST['formEmail'])){echo 'value="', strip_tags($_POST['formEmail']),'"'; } ?> required>
+          <input class="textIn" type="email" id="formEmail" name="formEmail" placeholder="Enter your email address" required>
 
           <label for="formMessage">Message</label>
           <textarea class="textInArea" name="formMessage" form="contactForm" id="formMessage" placeholder= "Enter your message here..." required><?php if(isset($_POST['formMessage'])){echo strip_tags($_POST['formMessage']); } ?></textarea>
       
       <input type="submit" id="submit" name="submit" value="Submit">
     </form>
-      <?php
-   }
-      ob_end_flush();
-     ?>
-  
+     
 </div>
 </div>
   <div class="col-xs-10 col-xs-offset-1 allContacts">
@@ -253,17 +192,7 @@ ob_start();
      
   </div>
 </div>
-
 </div>
-   <?php
-   $hitCounter = 'counterFile.txt';
-   function incCounter(){
-    global $hitCounter;
-    $currValue = (file_exists($hitCounter)) ? file_get_contents($hitCounter) : 0;
-    file_put_contents($hitCounter, ++$currValue);
-   }
-   incCounter();
-   ?>
   </body>
 
 </html>
