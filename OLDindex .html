@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sanuh's Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
+    
+       
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+    <script src="js/app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    
+  </head>
+  <body>
+    
+    
+<!-- Nav Bar -->
+
+<div class="container container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p id="myName">Columbus</p>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#aboutMe">AboutMe</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+  <div class="col-xs-2" id="floater">
+    <div>Section:</div>
+    <div id="val"></div>
+  </div>
+  
+  <div class="row info">
+    <div class="col-xs-12 welcomeSection text-center" id="welcome">
+      <p id="welcome1">Hello</p>
+      <p id="welcome2">Welcome to My Portfolio Page</p>
+      <p id="welcome3">I am Columbus</p>
+      
+      <p id="arrowShow"></p>
+    </div>
+    
+    <div class="col-xs-10 col-xs-offset-1" id="aboutMe"><a name="aboutMe"></a>
+      <div id="pic">
+		<img class="img-responsive img-rounded" src="/allImages/columbusImg.jpg" alt="Columbus official picture">
+      </div>
+        <h3>My name is Columbus and Software Development is my ultimate goal</h3>
+        <p>I have personally design this webpage to introduce myself and to showcase some simple projects I have built. </p>
+        <p>Over the past ten years I have gained commercial experiences in various sectors. As an AutoCAD drafting operator for two years and subsequently as an owner/manager of a mini-market/computer repair service for 5 years that was commended by<a href="http://corrierealpi.gelocal.it/belluno/cronaca/2012/04/16/news/sanuh-ndifor-faccio-quello-che-ho-sempre-voluto-fare-1.4377486?refresh_ce" target="_blank"> the local Newspaper </a> in 2012 as a success story.</p>
+        <p>Because of my passion for software, in 2013 I decided to enrol in The Open University (OU) and will be graduating in 2017 with a BSc (Hons) in Computer Science and Business Management.</p>
+        <p>I have gained extensive software development knowledge such as OOP, UML, and Java from my studies at the university and I am currently improving my practical skills from lessons and challenges at Free-Code-Camp in technologies and libraries such as HTML5, CSS and jQuery.</p>
+        <p>During the last four months I have worked on some simple JavaScript, Bootstrap, CSS and JQuery projects - some of which could be found on the project section of this page</p>
+        <p>I welcome commercial Internships/Placements/Graduate Schemes/Entry Level in Software Development or IT Networking, or just feedback, suggestions and bug reporting about this site.</p>
+      
+      <blockquote class="blockquote">
+        <p>“... Learn as if you were to live forever.</p>
+        <footer class="blockquote-footer"><a target="_blank" href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
+      </blockquote>
+      
+    </div>
+    
+  </div>
+  
+ 
+  <div class="row projects text-center" id="projects"><a name="projects"></a>
+    <h1> Here are some of my projects</h1>
+  <div class="col-xs-12">  
+    <div class="col-xs-4 project">
+      <a href="/PomodoroClock/index.html" class="thumbnail" target="blank">
+        <img  src="/allImages/pomodoroClock.jpg" alt="pomodoro clock thumbnail">
+          <div class="caption">
+            <p>A Pomodoro Clock: With adjustable Breaks and Session time! Now try it! workaholic ? take a break : stop banging your head;</p>
+          </div>
+      </a>
+    </div> 
+    <div class="col-xs-4 project">
+      <a href="/calculator/index.html" class="thumbnail" target="blank">
+        <img  src="/allImages/calculator.jpg" alt="calculator thumbnail">
+          <div class="caption">
+            <p>Javascript Calculator: Fully functional calculator with CSS 3D perspective enhancement! Now try it and make all calculations right!</p>
+          </div>
+      </a>
+    </div> 
+    <div class="col-xs-4 project">
+      <a href="/local-weather/index.html" class="thumbnail" target="blank">
+        <img  src="/allImages/localWeather.jpg" alt="local weather thumbnail">
+          <div class="caption">
+            <p>A Local Weather: displays current weather based on automatically  detecting user's geolocation! Now see your local weather</p>
+          </div>
+      </a>
+    </div> 
+  </div>
+    
+  <div class="col-xs-12" id="secThumbnail">
+    <div class="col-xs-4 project">
+      <a href="/the-simon-game/index.html" class="thumbnail" target="blank">
+        <img  src="/allImages/simonGame.jpg" alt="The Simon game thumbnail">
+          <div class="caption">
+            <p>A Simon Game: nice simple SIMON game biult with javaScript and design with CSS! Now try it and win at level 20!</p>
+          </div>
+      </a>
+    </div> 
+    <div class="col-xs-4 project">
+      <a href="/tic-tac-toe/index.html" class="thumbnail" target="blank">
+        <img  src="/allImages/ticTacToe.jpg" alt="the tic-tac-toe game thumbnail">
+          <div class="caption">
+            <p>A Tic-Tac-Toe Game: simple tict-tac-toe with different game level and intensity. Now try to beat the machine at Level 4!</p>
+          </div>
+      </a>
+    </div> 
+    <div class="col-xs-4 project">
+      <a href="wikipedia-viewer/index.html" class="thumbnail" target="blank">
+        <img  src="/allImages/wikiSearch.jpg" alt="wikisearch thumbnail">
+          <div class="caption">
+            <p>Wikipedia Viewer. Search Wikipedia directly from my wikipedia viewer and click links to go to the apprioriate page</p>
+          </div>
+      </a>
+    </div> 
+  </div>
+    
+  </div>
+  
+<div class="row contacts" id="contacts"><a name="contacts"></a>
+  
+  
+<div class="col-xs-10 col-xs-offset-1 textContacts"> 
+<div class="col-xs-12 text-center" id="contact">
+      <h2> Get in touch</h2>
+  <p>Thanks for viewing my portfolio page. Please use this form to drop a note.</p>
+</div>
+  
+  
+<div class="col-xs-12">
+  
+  
+  
+ <div class="col-xs-12">
+  <form action="https://formspree.io/sanuhportfolio@yahoo.com" method="post" id="contactForm" name="contactForm">
+    
+        <label>Name</label>
+        <input class="textIn" type="text" id="formName" name="name" placeholder="Enter your Name">
+        
+        <label>Email</label>
+        <input class="textIn" type="email" id="formEmail" name="email" placeholder="Enter your email address">
+        
+        <label>Message</label>
+        <textarea class="textInArea" name="message" form="contactForm" id="formMessage" placeholder= "Enter your message here..."></textarea>
+<!--
+        <label>For Spam Prevention please answer the following</label>
+        <div id="notBlockVal"><label>2+2=</label></div>
+        <div id="notBlockVal"><input name="human" placeholder="Type here"></div>
+  -->    
+    <button type="submit" id="submit" name="submit">Submit</button>
+
+  </form>
+       
+</div>
+  
+</div>
+</div>
+  <div class="col-xs-10 col-xs-offset-1 allContacts">
+    
+    <div class="col-xs-12 text-center ">
+      <p>For more information please click on the appropriate link below.</p>
+      <a href="https://uk.linkedin.com/in/columbus-sanuh-7a100296" target="blank"><i class="fa fa-linkedin"></i> LinkedIn </a>
+      <a href="https://www.freecodecamp.com/sanuhcol" target="blank"><i class=" fa fa-github"></i> Free Code Camp</a>
+      <a href="https://twitter.com/sanuhcol" target="blank"><i class="fa fa-twitter"></i> Twitter </a>
+      <p><i class="fa fa-copyright"> Columbus Sanuh 2016 </i></p>
+    </div>
+     
+  </div>
+</div>
+
+</div>
+ 
+  </body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock by Columbus Sanuh</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+ 
+
+  </head>
+
+  <body>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
+<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script async src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script async src="js/app.js"></script>
+    
+ <div class = "container container-fluid text-center">
+   <!-- Nav Bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p id="myName">Columbus</p>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://www.sanuhcol.com/index.php#welcome">Welcome</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#aboutMe">AboutMe</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#projects">Projects</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#contacts">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+   
+  <div class = "row">
+   <div class = "col-xs-12 text-center">
+    
+    <div class = "col-xs-12 heading text-center">
+     <h1> The Pomodoro Clock</h1>
+     <h3> By Columbus</h3>
+    </div>
+   
+    <div class = "col-xs-12 clock-container">
+    
+    <div id="clock-cover">
+     <div id="clock-frame">
+      <div id="clock-content">
+         
+        <div class = "col-xs-12 the-clock">
+          <div class = "col-xs-12 changeBtn">
+            <div class = "col-xs-4">
+              <label> Set Break</label>
+              <button class="btn set-time-btn" id = "reduce-break">-</button>
+              <button class="btn set-time-btn" id = "add-break" >+</button>
+              <input class=" text-center" type="text" id ="breakDisplay" placeholder="00">
+            </div>
+      
+            <div class = "col-xs-4 col-xs-offset-4">
+              <label> Set Session</label>
+              <button class="btn set-time-btn" id = "add-session" >+</button>
+              <button class="btn set-time-btn" id = "reduce-session">-</button>
+              <input class="text-center" type="text" id ="sessionDisplay" placeholder="00">
+            </div>
+          </div>
+      
+          <div class="col-xs-10 col-xs-offset-1">
+            <input class="col-xs-12 text-center" type="text" id ="screen-time" placeholder="00:00:00">
+          </div>
+       
+          <div class="col-xs-10 col-xs-offset-1">
+            <button class="btn start-stop-btn" id ="start" >Start</button>
+            <button class="btn start-stop-btn" id ="stop">Stop/Pause</button>
+            <button class="btn start-stop-btn" id ="reset">Reset</button>
+          </div>
+          
+        </div>---
+        
+                </div>
+              </div>
+            </div>
+          </div>
+     
+        </div>
+      </div>
+   
+<div class="mainOrCode">
+    <a href="http://www.sanuhcol.com" class="mainOrCodeElt" id="returnToMain">Return to My portfolio</a>
+    <p class="mainOrCodeElt">Or</p>
+    <a href="https://codepen.io/sanuhcol/pen/YGyVbW" class="mainOrCodeElt" target="_blank" id="returnToCode">View My Codes</a>
+</div>
+   
+    </div>
+<div class=" row">
+  <div class="col-xs-10 col-xs-offset-1 allContacts text-center">
+      <a href="https://uk.linkedin.com/in/columbus-sanuh-7a100296" target="blank"><i class="fa fa-linkedin"></i> LinkedIn </a>
+      <a href="https://www.freecodecamp.com/sanuhcol" target="blank"><i class=" fa fa-github"></i> Free Code Camp </a>
+      <a href="https://twitter.com/sanuhcol" target="blank"><i class="fa fa-twitter"></i> Twitter </a>
+      <p><i class="fa fa-copyright"></i>Columbus Sanuh 2016</p>
+  </div>
+</div>
+  
+  </body>
+</html>

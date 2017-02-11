@@ -1,0 +1,117 @@
+body{
+	background-color: #CBD0D1;
+	text-align: center;
+}
+#myName{
+  font-size: 20px;
+  color: #E4EDE2;
+  font-family: "lobster", cursive;
+}
+.navbar-inverse{
+    background-color: #333333;
+    border-color: #000000;
+    min-height: 30px !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+  padding: 8px;
+  border-right: 2px solid white;
+  background-color: #000000;
+}
+.navbar-inverse .navbar-nav > li:first-child{
+  border-left: 2px solid white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #686770;
+  color: #FFFFFF;
+}
+
+.myContainer{
+  margin-top: 50px;
+}
+
+#searchBox{
+	margin : 15px auto;
+	padding : 25px;
+	border-radius:5px;
+	background-color:#9EACB0;
+}
+#searchResult{
+	background-color:#BBC2C4;
+	padding : 30px;
+}
+.buttons>a{
+  text-decoration: none;
+  color: #FFFFFF !important;
+  
+}
+#text{  
+    height:30px;
+    width: 50%; 
+  } 
+
+.col-centered{
+    margin:10px auto; 
+}
+.display{
+	background-color: #FFFFFF;
+	margin : 15px auto;
+	padding : 10px;
+	border-radius:5px;
+	text-align: left;
+}
+.mainOrCode{
+  display: block;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.mainOrCode>p{
+  display: block;
+  margin: 5px 0 5px 0;
+}
+.mainOrCodeElt{
+  display: inline;
+  
+}
+
+#returnToMain>a, #returnToCode>a{
+  color: #CDC7C6 ;
+  background-color: #333333;
+  height: 35px;
+  width: 250px;
+  display: block;
+  margin: 15px auto 15px auto;
+  font-size: 16px;
+  padding: 5px 30px 5px 30px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#returnToMain>a:hover, #returnToCode>a:hover{
+  color: #FFFFFF;
+  background-color:#598DA8; 
+}
+#returnToCode{
+  margin-bottom: 100px;
+}
+
+.allContacts{
+  color: #EAE3C2;
+  font-family: cursive;
+  font-size: 12px;
+  background-color: #333333;
+  position: fixed;
+  bottom: 0;
+  margin-top: 20px;
+  border-radius: 20px 20px 0 0;
+   -moz-border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+}
+.allContacts p:last-child{
+  font-size: 12px;
+}

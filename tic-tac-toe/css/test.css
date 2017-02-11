@@ -1,0 +1,13 @@
+
+
+#cone { 
+ 
+    border: 2px solid #000; /* the 'strokes' of the arc */
+    display: inline-block;
+    min-width: 4em; /* the width of the innermost element */
+    min-height: 4em; /* the height of the innermost element */
+    padding: 0.5em; /* the spacing between each arc */
+    border-radius: 50%; /* for making the elements 'round' */
+    border-top-color: transparent; /* hiding the top border */
+    border-bottom-color: transparent;
+}

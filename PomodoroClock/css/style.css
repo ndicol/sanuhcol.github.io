@@ -1,0 +1,163 @@
+
+body {
+  height:100%;
+   background-color: #d9d3bd;
+}
+
+#myName{
+  font-size: 20px;
+  color: #E4EDE2;
+  font-family: "lobster", cursive;
+}
+.navbar-inverse{
+    background-color: #333333;
+    border-color: #000000;
+    min-height: 30px !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+  padding: 8px;
+  border-right: 2px solid white;
+  background-color: #000000;
+}
+.navbar-inverse .navbar-nav > li:first-child{
+  border-left: 2px solid white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #686770;
+  color: #FFFFFF;
+}
+.container{
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.heading>h3{
+  font-family:'Lobster', cursive;
+}
+
+
+#clock-cover{
+display: block;
+margin: auto;
+ border: 7px outset #c0c1c7 ;
+ width: 500px;
+ height: 300px;
+ background-color: #dadce5;
+  box-shadow: 7px 7px 10px #333333;
+
+}
+
+#clock-frame{
+ width: 99%;
+ height: 98%;
+ border: 10px inset  #c0c1c7 ;
+ margin: 3px;
+}
+
+#clock-content{
+  color: white;
+ background-color:  #656870;
+ width: 98%;
+ height: 96%;
+ padding: 10px;
+margin: 1%;
+ border-radius: 5px;
+}
+
+label{
+ vertical-align: top; 
+}
+#sessionDisplay, #breakDisplay{
+  width: 80px;
+  border: 4px inset #878991;
+  background-color: #60636c;
+  color: white;
+}
+
+#screen-time{
+  font-family: "Graduate", cursive;
+  //width: 250px;
+  height: 80px;
+  margin: 10px auto;
+  font-size: 62px;
+  border: 4px inset #878991;
+  border-radius: 10px;
+  background-color: #60636c;
+  color: chartreuse;
+}
+
+.set-time-btn{
+  width: 40px;
+  height: 40px;
+  font-size: 20;
+  border: 3px outset #c5c7cd;
+  background-color:  #0f0f0f;
+}
+
+.start-stop-btn{
+  border: 3px outset #c5c7cd;
+  width: 70px;
+  height: 40px;
+}
+#start, #reset{
+  background-color:  #505b8e;
+}
+
+#stop{
+   background-color: #a55667;
+  margin: 0% 4%;
+  width: 110px;
+}
+
+.mainOrCode{
+  display: block;
+  color: #000000;
+  margin-bottom: 60px;
+  margin-top: 25px;
+}
+.mainOrCode>p{
+  display: block;
+  font-size: 16px;
+}
+.mainOrCodeElt{
+  display: inline;
+  
+}
+#returnToMain, #returnToCode{
+  color: #FFFFFF;
+  background-color: #333333;
+  padding: 3px 10px 3px 10px;
+  height: 45px;
+  margin-top: 15px;
+  width:300px;
+  font-size: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#returnToCode{
+  margin-bottom: 100px;
+}
+#returnToMain:hover, #returnToCode:hover{
+  background-color:#598DA8; 
+}
+.allContacts{
+  color: #EAE3C2;
+  font-family: cursive;
+  font-size: 12px;
+  background-color: #333333;
+  position: fixed;
+  bottom: 0;
+  margin-top: 20px;
+  border-radius: 20px 20px 0 0;
+   -moz-border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+}
+.allContacts a{
+  margin: 25px;
+  font-size: 16;
+}
+.allContacts p:last-child{
+  font-size: 12px;
+}
+

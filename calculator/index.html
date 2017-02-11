@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Calculator by Columbus Sanuh</title>
+    
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">   
+    
+</head>
+
+<body>
+  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
+<script async  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script async src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script async src="js/app.js"></script>
+  
+<!-- Nav Bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p id="myName">Columbus</p>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://www.sanuhcol.com/index.php#welcome">Welcome</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#aboutMe">AboutMe</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#projects">Projects</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#contacts">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+
+   
+<div class="container conterner-fluid text-center">
+<div class="row">
+<div class="col-xs-12">
+  <div class = "calc"> 
+    <div class= "col-xs-12 text-center topHeading">
+        <h3>The JavaScript Calculator Project</h3>
+        <h3>By Columbus</h3> 
+        <p>To operate the calculator click 'ON/OFF' button</p>
+    </div>
+    <div >
+      <input type="text" id = textA> 
+    </div>
+    <div id="logo">
+      <p> Columbus ... @ freeCodeCamp</p>
+     </div>
+     <div class = "butt">
+       <div class = "childButt row">
+         <div class = "col-xs-12 col-xs-offset-1 powerButt">
+           <button class = "offButtStyle" id = "memRecall">MRC</button>
+           <button class = "offButtStyle" id = "minusMem">M-</button>
+           <button class = "offButtStyle" id = "addInMem">M+</button>
+           <button class = "offButtStyle" id = "ce">CE</button>
+           <button class = "offButtStyle" id = "on">ON/OFF</button>
+         </div>
+            
+         <div class = "col-xs-7 numBtn">
+            <button class = "digitBtn normButtStyle" id = "7">7</button>
+            <button class = "digitBtn normButtStyle" id = "8">8</button>
+            <button class = "digitBtn normButtStyle" id = "9">9</button>
+          </div>
+            
+           <div class = "col-xs-5">
+             <button class = "normButtStyle" id = "times">x</button>
+             <button class = "normButtStyle" id = "divide">÷</button> 
+           </div>
+            
+            <div class = "col-xs-7 numBtn">
+               <button class = "digitBtn normButtStyle" id = "4">4</button>
+               <button class = "digitBtn normButtStyle" id = "5">5</button>
+               <button class = "digitBtn normButtStyle" id = "6">6</button>
+            </div>
+            
+            <div class = "col-xs-5">
+              <button class = "normButtStyle" id = "plusBtn">+</button>
+              <button class = "normButtStyle" id = "minusBtn">-</button>
+            </div>
+            
+           <div class = "col-xs-7 numBtn">
+             <button class = "digitBtn normButtStyle" id = "1">1</button>
+             <button class = "digitBtn normButtStyle" id = "2">2</button>
+             <button class = "digitBtn normButtStyle" id = "3">3</button>
+            </div>
+            
+            <div class = "col-xs-5">
+              <button class = "normButtStyle" id = "sq">x<sup>2</sup></button>
+               <button class = "normButtStyle" id = "sqrt">√</button>
+            </div>
+            
+            <div class = "col-xs-7 numBtn">
+              <button class = "digitBtn normButtStyle" id = "0">0</button>
+              <button class = "digitBtn normButtStyle" id = "00">00</button>
+              <button class = "normButtStyle" id = "pt">.</button>
+             </div>
+            
+             <div class = "col-xs-5">
+               <button class = "normButtStyle" id = "eqBtn">=</button>
+             </div>
+    
+        </div>
+     </div> 
+  </div>
+</div>
+  
+</div>
+  
+<div class="mainOrCode">
+    <a href="http://www.sanuhcol.com" class="mainOrCodeElt" id="returnToMain">Return to My portfolio</a>
+    <p class="mainOrCodeElt">Or</p>
+    <a href="https://codepen.io/sanuhcol/pen/EgaQYr" class="mainOrCodeElt" target="_blank" id="returnToCode">View My Codes</a>
+</div>
+  
+</div>
+<div class=" row">
+  <div class="col-xs-10 col-xs-offset-1 allContacts text-center">
+      <a href="https://uk.linkedin.com/in/columbus-sanuh-7a100296" target="blank"><i class="fa fa-linkedin"></i> LinkedIn </a>
+      <a href="https://www.freecodecamp.com/sanuhcol" target="blank"><i class=" fa fa-github"></i> Free Code Camp </a>
+      <a href="https://twitter.com/sanuhcol" target="blank"><i class="fa fa-twitter"></i> Twitter </a>
+      <p><i class="fa fa-copyright"></i>Columbus Sanuh 2016</p>
+  </div>
+</div>
+   
+  </body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,205 @@
+body{
+  background-color: #585858;
+  background-image: url("/allImages/clockEngineBG.jpg") ;
+  background-size: contain;
+}
+
+#myName{
+  font-size: 20px;
+  color: #E4EDE2;
+  font-family: "lobster", cursive;
+}
+
+.navbar-inverse{
+    background-color: #333333;
+    border-color: #000000;
+    min-height: 30px !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+  padding: 8px;
+  border-right: 2px solid white;
+  background-color: #000000;
+}
+.navbar-inverse .navbar-nav > li:first-child{
+  border-left: 2px solid white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #686770;
+  color: #FFFFFF;
+}
+
+
+.welcomeSection{
+  color: #E4EDE2;
+  font-family: "lobster", cursive;
+  font-size: 70px;
+  margin-top: 10px;
+}
+.welcomeSection p:first-child{
+  font-size: 100px;
+  letter-spacing:15px;
+  margin-top: 0.5%;
+  margin-bottom: 2%;
+}
+
+.welcomeSection p:last-of-type{
+  font-size: 80px;
+}
+.welcomeSection p{
+  display: none;
+}
+
+#pic img{
+  width:20%;
+  border-radius: 5%;
+  float: right;
+  margin:10px;
+}
+h3, h2, h1{
+  font-family:"Lobster", cursive;
+}
+
+#aboutMe, .textContacts, .allContacts{
+  color: #200C05;
+  font-family: cursive;
+  font-size: 18px;
+  background-color: #EBE7D4;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+#aboutMe>h3{
+  text-align: center;
+}
+#aboutMe{
+  visibility:hidden;
+}
+
+blockquote{
+  font-family: "lobster", cursive;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+}
+
+.projects{
+  border-top: 3px solid #38383B;
+  border-bottom: 3px solid #38383B;
+  padding-bottom: 15px;
+  background-color: #474649;
+}
+
+.projects>h1, #uniProj{
+  color: #E4EDE2;
+  margin-bottom: 30px;
+}
+#uniProj{
+ font-family: "lobster", cursive;
+ font-size: 25px;
+}
+ .thumbnail{
+  border: 4px outset antiquewhite;
+  background-color: #9F9595;
+}
+.thumbnail:hover{
+  text-decoration: none;
+  box-shadow: 7px 5px 10px #FFFFFF;
+}
+#secThumbnail{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.allContacts{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  border-radius: 20px 20px 0 0;
+   -moz-border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+}
+
+.allContacts a{
+  margin: 20px;
+  font-size: 14px;
+}
+#contactForm{
+  padding: 20px;
+}
+
+label, #submit{
+  display: block;
+  margin-top: 3%;
+}
+#submit{
+  width: 120px;
+  padding: 7px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+}
+#submit:hover{
+  box-shadow: 5px 5px 5px #333333;
+}
+.textIn, .textInArea{
+  width: 100%;
+  height: 30px;
+  background-color: #EFEFEF;
+  border: 2px solid #C2C2B8;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#formMessage{
+  height: 200px;
+}
+#notBlockVal, #notBlockVal label{
+  font-family: monospace;
+  display: inline;
+  margin: 0;
+}
+#notBlockVal input{
+  width: 85px;
+}
+
+#floater{
+  color: #FE2E2E;
+  position: fixed;
+  z-index: 20;
+  top: 40%;
+  left: 1%;
+  font-size: 42px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;;
+}
+#floater>div{
+  border:2px solid #FE2E2E;
+  border-bottom: 0px;
+  border-top-left-radius: 10px;
+  -moz-border-top-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-top-right-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+}
+#floater>div:last-child{
+  border-bottom: 2px solid #FE2E2E;
+  border-bottom-left-radius: 10px;
+  -moz-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -moz-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+}
+#Error{
+  color: #FB0E15;
+  font-size: 25px;
+  text-align: center;
+}
+#thankyou>h3{
+  color: darkgreen;
+  text-align: center;
+}

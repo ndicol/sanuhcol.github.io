@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Local Weather by Columbus Sanuh</title>
+   
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/style.css">
+ 
+  </head>
+
+  <body>
+  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
+<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script async src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script async src="./js/app.js"></script>
+
+<div class="container container-fluid text-center"> <!-- Main container-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p id="myName">Columbus</p>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://www.sanuhcol.com/index.php#welcome">Welcome</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#aboutMe">AboutMe</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#projects">Projects</a></li>
+        <li><a href="http://www.sanuhcol.com/index.php#contacts">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+  
+  <div class="col-centered text-center">
+    <h1> Local Weather Forecast </h1>
+      <div>
+         <h3>The Current Weather for </h3>
+         <h3 id="location"></h3> <!--holds the City and Country retrieved from API -->
+      </div>
+      <div class="row col-centered">
+        <div class="col-xs-6 col-xs-offset-3 windTemp">
+            <div class="col-xs-6 " id="weatherIcon">Activate
+            </div>
+            <div class="col-xs-6 " id="weatherDescription">GeoLocation
+            </div>
+        </div>
+      </div>
+    <!-- Display local weather information from WU API -->
+      <div class="row col-centered text-center">
+          <div class="col-xs-6 col-xs-offset-3 windTemp">
+            <div class="col-xs-3 text-center" id="temp">to View
+            </div>
+              <div class="col-xs-6 text-center" id="wind">Current
+            </div>
+            <div class="col-xs-3 text-center" id="humidity">Weather
+            </div>
+         </div> 
+      </div>
+    
+    <!--Buttons to convert between Fahrenheit and Celcius -->
+    <div class="row col-centered text-center" >
+        <div class="col-xs-3 col-xs-offset-3 btn btn-default" id= "fahrenheit">Fahrenheit</div>
+        <div class="col-xs-3 btn btn-default" id="celcius">Celcius</div>
+    </div>
+    
+  </div>
+<div class="mainOrCode">
+    <a href="http://www.sanuhcol.com" class="mainOrCodeElt" id="returnToMain">Return to My portfolio</a>
+    <p class="mainOrCodeElt">Or</p>
+    <a href="https://codepen.io/sanuhcol/pen/bZOXxB" class="mainOrCodeElt" target="_blank" id="returnToCode">View My Codes</a>
+</div>
+  
+</div> 
+
+<div class=" row">
+  <div class="col-xs-10 col-xs-offset-1 allContacts text-center">
+      <a href="https://uk.linkedin.com/in/columbus-sanuh-7a100296" target="blank"><i class="fa fa-linkedin"></i> LinkedIn </a>
+      <a href="https://www.freecodecamp.com/sanuhcol" target="blank"><i class=" fa fa-github"></i> Free Code Camp </a>
+      <a href="https://twitter.com/sanuhcol" target="blank"><i class="fa fa-twitter"></i> Twitter </a>
+      <p><i class="fa fa-copyright"></i>Columbus Sanuh 2016</p>
+  </div>
+</div>
+  
+  </body>
+    
+  
+</html>

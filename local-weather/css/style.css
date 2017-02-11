@@ -1,0 +1,109 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    background: no-repeat center fixed;
+    background-size: cover;
+  }
+
+h1{
+  font-family: "Lucida Console", Monaco, monospace;
+}
+#myName{
+  font-size: 20px;
+  color: #E4EDE2;
+  font-family: "lobster", cursive;
+}
+.navbar-inverse{
+    background-color: #333333;
+    border-color: #000000;
+    min-height: 30px !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+  padding: 8px;
+  border-right: 2px solid white;
+  background-color: #000000;
+}
+.navbar-inverse .navbar-nav > li:first-child{
+  border-left: 2px solid white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #686770;
+  color: #FFFFFF;
+}
+.container{
+  padding-top: 30px;
+}
+
+.windTemp{
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color:#DADEE0;
+  box-shadow: 5px 5px 2px #888888;
+  border-radius:5px;
+  color: #1B648C; 
+}
+  
+.col-centered>.btn{
+  background-color: #184E63;
+  color:white;
+  padding: 5px;
+  margin-right: 5px;
+}
+.col-centered>.btn:hover{
+  background-color: #27ABE0;
+}
+.col-centered{
+    margin:20px auto; 
+}
+
+
+.mainOrCode{
+  display: block;
+  color: #000000;
+  margin-bottom: 60px !important;
+}
+.mainOrCode>p{
+  display: block;
+  margin: 7px 0 7px 0;
+}
+.mainOrCodeElt{
+  display: inline;
+  
+}
+#returnToMain, #returnToCode{
+  color: #FFFFFF;
+  background-color: #333333;
+  padding: 3px 10px 3px 10px;
+  height: 35px;
+  width:300px;
+  font-size: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#returnToCode{
+  margin-bottom: 100px;
+}
+#returnToMain:hover, #returnToCode:hover{
+  background-color:#598DA8; 
+}
+.allContacts{
+  color: #EAE3C2;
+  font-family: cursive;
+  font-size: 12px;
+  background-color: #333333;
+  position: fixed;
+  bottom: 0;
+  margin-top: 20px;
+  border-radius: 20px 20px 0 0;
+   -moz-border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+}
+.allContacts a{
+  margin: 25px;
+  font-size: 16;
+}
+.allContacts p:last-child{
+  font-size: 12px;
+}
+
